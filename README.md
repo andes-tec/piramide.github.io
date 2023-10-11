@@ -1,1 +1,3 @@
 # piramide.github.io
+
+Solucion a una piramide de numeros de 6 casilleros en tres filas, el desafio primero era solucionar la piramide sabiendo los valores delos vértices, pero además se logro encontrar 14 maneras más de solucionar la piramide ingresando tres valores. La idea parte de la necesidad de poder solucionar piramides de muchos mas casilleros, pero pensando que esta piramide de 6 casilleros podriamos tomarla como unidad fundamental de otras piramides más grandes se la diseño y cumple tal fin, poder solucionar partes de piramides mas grandes, introduciendo los valores en los que podrian encontrarse en una piramide mas grande.
