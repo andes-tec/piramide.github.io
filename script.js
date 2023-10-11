@@ -307,6 +307,60 @@ document.addEventListener('DOMContentLoaded', function() {
             const total01 = total13 + cell12;
             cell01.value = total01;
             }
+
+            // Verifica si se ingresaron números en las celdas requeridas Posicion 16
+        if (!isNaN(cell13) && !isNaN(cell24) && !isNaN(cell26)) {
+            // Realiza la operación y actualiza .cell-2-5          
+            const cell25 = document.getElementById('cell-2-5');
+            const result25 = cell13 - cell26;
+            cell25.value = result25;
+
+            // Se suman los valores de .cell-2-5 y .cell-3-6 y muestra el resultado en .cell-1-2
+            const cell12 = document.getElementById('cell-1-2');
+            const total12 = cell24 + result25;
+            cell12.value = total12;
+
+            // Se suman los valores de .cell-1-3 y .cell-1-2 y muestra el resultado en .cell-0-1
+            const cell01 = document.getElementById('cell-0-1');
+            const total01 = cell13 + total12;
+            cell01.value = total01;
+            }
+
+            // Verifica si se ingresaron números en las celdas requeridas Posicion 17
+        if (!isNaN(cell12) && !isNaN(cell24) && !isNaN(cell26)) {
+            // Realiza la operación y actualiza .cell-2-5          
+            const cell25 = document.getElementById('cell-2-5');
+            const result25 = cell12 - cell24;
+            cell25.value = result25;
+
+            // Se suman los valores de .cell-2-5 y .cell-3-6 y muestra el resultado en .cell-1-2
+            const cell13 = document.getElementById('cell-1-3');
+            const total13 = cell26 + result25;
+            cell13.value = total13;
+
+            // Se suman los valores de .cell-1-3 y .cell-1-2 y muestra el resultado en .cell-0-1
+            const cell01 = document.getElementById('cell-0-1');
+            const total01 = cell12 + total13;
+            cell01.value = total01;
+            }
+
+            // Verifica si se ingresaron números en las celdas requeridas Posicion 18
+        if (!isNaN(cell12) && !isNaN(cell24) && !isNaN(cell25)) {
+            // Realiza la operación y actualiza .cell-2-5          
+            const cell25 = document.getElementById('cell-2-5');
+            const result25 = cell12 - cell24;
+            cell25.value = result25;
+
+            // Se suman los valores de .cell-2-5 y .cell-3-6 y muestra el resultado en .cell-1-2
+            const cell13 = document.getElementById('cell-1-3');
+            const total13 = cell26 + result25;
+            cell13.value = total13;
+
+            // Se suman los valores de .cell-1-3 y .cell-1-2 y muestra el resultado en .cell-0-1
+            const cell01 = document.getElementById('cell-0-1');
+            const total01 = cell12 + total13;
+            cell01.value = total01;
+            }
     
     
     });
@@ -318,8 +372,3 @@ document.addEventListener('DOMContentLoaded', function() {
         });
     });
 });
-
-
-
-
-
